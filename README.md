@@ -40,7 +40,7 @@ Welcome to the SVG Bird Morphing Animation project! This SwiftUI application sho
 * SVGBezierPath for handling SVG paths.
 * SwiftUI for building the user interface.
 
-Enjoy experimenting with this SVG bird morphing animation!Happy coding!
+Enjoy experimenting with this SVG bird morphing animation! Happy coding!
 
 https://github.com/user-attachments/assets/8cd77089-e770-4a07-bdc7-b753bb847d32
 
