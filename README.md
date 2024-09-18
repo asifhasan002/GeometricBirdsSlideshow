@@ -33,6 +33,7 @@ Welcome to the SVG Bird Morphing Animation project! This SwiftUI application sho
 #### Customization
 * To add more birds, simply include additional SVG files in the project directory and update the loadBirdData() function accordingly.
 * Modify colors and shapes by editing the corresponding SVG files.
+* Note: Svg birds must have equal paths for smooth animation.
 
 #### Acknowledgments
 
