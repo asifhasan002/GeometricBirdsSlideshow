@@ -8,15 +8,13 @@ Welcome to the SVG Bird Morphing Animation project! This SwiftUI application sho
 * Text Display: Corresponding text updates to reflect the current bird being displayed.
 * Interactive Dots: Visual indicators that highlight the current bird, enhancing user engagement.
 
-#### Getting Started
-###### Prerequisites
+#### Prerequisites
 * Xcode 13.0 or later
 * Swift 5.0 or later
 * Installation
 * Clone this repository:
 
-#### How It Works
-###### Key Components
+#### Key Components
 * Bird Data Loading: SVG paths and colors are loaded from specified SVG files.
 * Shape Layer Setup: CAShapeLayer is used to render the SVG shapes.
 * Animation Logic: Animations for both path morphing and color transitions are handled through Core Animation.
