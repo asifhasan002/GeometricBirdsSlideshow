@@ -2,8 +2,8 @@
 
 Welcome to the SVG Bird Morphing Animation project! This SwiftUI application showcases a visually engaging morphing animation using SVG images of various birds. The animation transitions between different bird shapes and colors, providing an elegant visual experience.
 
-Features
-Morphing Animation: Smoothly transitions between multiple bird SVG shapes.
+# Features
+#### Morphing Animation: Smoothly transitions between multiple bird SVG shapes.
 Dynamic Color Change: Each bird's color changes during the morphing animation.
 Text Display: Corresponding text updates to reflect the current bird being displayed.
 Interactive Dots: Visual indicators that highlight the current bird, enhancing user engagement.
