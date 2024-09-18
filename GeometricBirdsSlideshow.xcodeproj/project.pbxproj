@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD31ACC82C98566900D0FAB4 /* GeometricBirdsSlideshowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACC72C98566900D0FAB4 /* GeometricBirdsSlideshowApp.swift */; };
+		BD31ACCA2C98566900D0FAB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACC92C98566900D0FAB4 /* ContentView.swift */; };
+		BD31ACCC2C98566A00D0FAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD31ACCB2C98566A00D0FAB4 /* Assets.xcassets */; };
+		BD31ACCF2C98566A00D0FAB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD31ACCE2C98566A00D0FAB4 /* Preview Assets.xcassets */; };
+		BD31ACD92C98566A00D0FAB4 /* GeometricBirdsSlideshowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACD82C98566A00D0FAB4 /* GeometricBirdsSlideshowTests.swift */; };
+		BD31ACE32C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACE22C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests.swift */; };
+		BD31ACE52C98566A00D0FAB4 /* GeometricBirdsSlideshowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACE42C98566A00D0FAB4 /* GeometricBirdsSlideshowUITestsLaunchTests.swift */; };
+		BD31ACF32C98575D00D0FAB4 /* Dots.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACF22C98575D00D0FAB4 /* Dots.swift */; };
+		BD31ACF72C9857C900D0FAB4 /* BirdDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACF62C9857C900D0FAB4 /* BirdDataManager.swift */; };
+		BD31ACFA2C9857F600D0FAB4 /* PocketSVG in Frameworks */ = {isa = PBXBuildFile; productRef = BD31ACF92C9857F600D0FAB4 /* PocketSVG */; };
+		BD31ACFC2C98582200D0FAB4 /* BirdShapeLayer+Morph.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACFB2C98582200D0FAB4 /* BirdShapeLayer+Morph.swift */; };
+		BD31ACFF2C985B3D00D0FAB4 /* DotColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31ACFE2C985B3D00D0FAB4 /* DotColors.swift */; };
+		BD31AD012C985B8900D0FAB4 /* SVGHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31AD002C985B8900D0FAB4 /* SVGHelper.swift */; };
+		BD31AD092C985D1400D0FAB4 /* bird5.svg in Resources */ = {isa = PBXBuildFile; fileRef = BD31AD032C985D1300D0FAB4 /* bird5.svg */; };
+		BD31AD0A2C985D1400D0FAB4 /* bird2.svg in Resources */ = {isa = PBXBuildFile; fileRef = BD31AD042C985D1400D0FAB4 /* bird2.svg */; };
+		BD31AD0B2C985D1400D0FAB4 /* bird4.svg in Resources */ = {isa = PBXBuildFile; fileRef = BD31AD052C985D1400D0FAB4 /* bird4.svg */; };
+		BD31AD0C2C985D1400D0FAB4 /* bird6.svg in Resources */ = {isa = PBXBuildFile; fileRef = BD31AD062C985D1400D0FAB4 /* bird6.svg */; };
+		BD31AD0D2C985D1400D0FAB4 /* bird1.svg in Resources */ = {isa = PBXBuildFile; fileRef = BD31AD072C985D1400D0FAB4 /* bird1.svg */; };
+		BD31AD0E2C985D1400D0FAB4 /* bird3.svg in Resources */ = {isa = PBXBuildFile; fileRef = BD31AD082C985D1400D0FAB4 /* bird3.svg */; };
+		BDB41C0A2C9960CA00CAB8DA /* BirdShapeLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB41C092C9960CA00CAB8DA /* BirdShapeLayerView.swift */; };
+		BDB41C0C2C997C8800CAB8DA /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB41C0B2C997C8800CAB8DA /* UIColor+Hex.swift */; };
+		BDB41C0E2C9ABD5E00CAB8DA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB41C0D2C9ABD5E00CAB8DA /* ContentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD31ACD52C98566A00D0FAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD31ACBC2C98566900D0FAB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD31ACC32C98566900D0FAB4;
+			remoteInfo = GeometricBirdsSlideshow;
+		};
+		BD31ACDF2C98566A00D0FAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD31ACBC2C98566900D0FAB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD31ACC32C98566900D0FAB4;
+			remoteInfo = GeometricBirdsSlideshow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD31ACC42C98566900D0FAB4 /* GeometricBirdsSlideshow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricBirdsSlideshow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD31ACC72C98566900D0FAB4 /* GeometricBirdsSlideshowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricBirdsSlideshowApp.swift; sourceTree = "<group>"; };
+		BD31ACC92C98566900D0FAB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD31ACCB2C98566A00D0FAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD31ACCE2C98566A00D0FAB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD31ACD42C98566A00D0FAB4 /* GeometricBirdsSlideshowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometricBirdsSlideshowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD31ACD82C98566A00D0FAB4 /* GeometricBirdsSlideshowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricBirdsSlideshowTests.swift; sourceTree = "<group>"; };
+		BD31ACDE2C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometricBirdsSlideshowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD31ACE22C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricBirdsSlideshowUITests.swift; sourceTree = "<group>"; };
+		BD31ACE42C98566A00D0FAB4 /* GeometricBirdsSlideshowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricBirdsSlideshowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD31ACF22C98575D00D0FAB4 /* Dots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dots.swift; sourceTree = "<group>"; };
+		BD31ACF62C9857C900D0FAB4 /* BirdDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdDataManager.swift; sourceTree = "<group>"; };
+		BD31ACFB2C98582200D0FAB4 /* BirdShapeLayer+Morph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BirdShapeLayer+Morph.swift"; sourceTree = "<group>"; };
+		BD31ACFE2C985B3D00D0FAB4 /* DotColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotColors.swift; sourceTree = "<group>"; };
+		BD31AD002C985B8900D0FAB4 /* SVGHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGHelper.swift; sourceTree = "<group>"; };
+		BD31AD032C985D1300D0FAB4 /* bird5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bird5.svg; sourceTree = "<group>"; };
+		BD31AD042C985D1400D0FAB4 /* bird2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bird2.svg; sourceTree = "<group>"; };
+		BD31AD052C985D1400D0FAB4 /* bird4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bird4.svg; sourceTree = "<group>"; };
+		BD31AD062C985D1400D0FAB4 /* bird6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bird6.svg; sourceTree = "<group>"; };
+		BD31AD072C985D1400D0FAB4 /* bird1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bird1.svg; sourceTree = "<group>"; };
+		BD31AD082C985D1400D0FAB4 /* bird3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bird3.svg; sourceTree = "<group>"; };
+		BDB41C092C9960CA00CAB8DA /* BirdShapeLayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdShapeLayerView.swift; sourceTree = "<group>"; };
+		BDB41C0B2C997C8800CAB8DA /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		BDB41C0D2C9ABD5E00CAB8DA /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD31ACC12C98566900D0FAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ACFA2C9857F600D0FAB4 /* PocketSVG in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ACD12C98566A00D0FAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ACDB2C98566A00D0FAB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD31ACBB2C98566900D0FAB4 = {
+			isa = PBXGroup;
+			children = (
+				BD31ACC62C98566900D0FAB4 /* GeometricBirdsSlideshow */,
+				BD31ACD72C98566A00D0FAB4 /* GeometricBirdsSlideshowTests */,
+				BD31ACE12C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests */,
+				BD31ACC52C98566900D0FAB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD31ACC52C98566900D0FAB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ACC42C98566900D0FAB4 /* GeometricBirdsSlideshow.app */,
+				BD31ACD42C98566A00D0FAB4 /* GeometricBirdsSlideshowTests.xctest */,
+				BD31ACDE2C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD31ACC62C98566900D0FAB4 /* GeometricBirdsSlideshow */ = {
+			isa = PBXGroup;
+			children = (
+				BD31AD022C985CEB00D0FAB4 /* BirdPics */,
+				BD31ACFD2C985B2400D0FAB4 /* Dots */,
+				BD31ACF12C98572600D0FAB4 /* Birds */,
+				BD31ACC72C98566900D0FAB4 /* GeometricBirdsSlideshowApp.swift */,
+				BD31ACC92C98566900D0FAB4 /* ContentView.swift */,
+				BDB41C0D2C9ABD5E00CAB8DA /* ContentViewModel.swift */,
+				BD31ACCB2C98566A00D0FAB4 /* Assets.xcassets */,
+				BD31ACCD2C98566A00D0FAB4 /* Preview Content */,
+				BD31AD002C985B8900D0FAB4 /* SVGHelper.swift */,
+				BDB41C0B2C997C8800CAB8DA /* UIColor+Hex.swift */,
+			);
+			path = GeometricBirdsSlideshow;
+			sourceTree = "<group>";
+		};
+		BD31ACCD2C98566A00D0FAB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ACCE2C98566A00D0FAB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD31ACD72C98566A00D0FAB4 /* GeometricBirdsSlideshowTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ACD82C98566A00D0FAB4 /* GeometricBirdsSlideshowTests.swift */,
+			);
+			path = GeometricBirdsSlideshowTests;
+			sourceTree = "<group>";
+		};
+		BD31ACE12C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ACE22C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests.swift */,
+				BD31ACE42C98566A00D0FAB4 /* GeometricBirdsSlideshowUITestsLaunchTests.swift */,
+			);
+			path = GeometricBirdsSlideshowUITests;
+			sourceTree = "<group>";
+		};
+		BD31ACF12C98572600D0FAB4 /* Birds */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ACF62C9857C900D0FAB4 /* BirdDataManager.swift */,
+				BD31ACFB2C98582200D0FAB4 /* BirdShapeLayer+Morph.swift */,
+				BDB41C092C9960CA00CAB8DA /* BirdShapeLayerView.swift */,
+			);
+			path = Birds;
+			sourceTree = "<group>";
+		};
+		BD31ACFD2C985B2400D0FAB4 /* Dots */ = {
+			isa = PBXGroup;
+			children = (
+				BD31ACF22C98575D00D0FAB4 /* Dots.swift */,
+				BD31ACFE2C985B3D00D0FAB4 /* DotColors.swift */,
+			);
+			path = Dots;
+			sourceTree = "<group>";
+		};
+		BD31AD022C985CEB00D0FAB4 /* BirdPics */ = {
+			isa = PBXGroup;
+			children = (
+				BD31AD072C985D1400D0FAB4 /* bird1.svg */,
+				BD31AD042C985D1400D0FAB4 /* bird2.svg */,
+				BD31AD082C985D1400D0FAB4 /* bird3.svg */,
+				BD31AD052C985D1400D0FAB4 /* bird4.svg */,
+				BD31AD032C985D1300D0FAB4 /* bird5.svg */,
+				BD31AD062C985D1400D0FAB4 /* bird6.svg */,
+			);
+			path = BirdPics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD31ACC32C98566900D0FAB4 /* GeometricBirdsSlideshow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD31ACE82C98566A00D0FAB4 /* Build configuration list for PBXNativeTarget "GeometricBirdsSlideshow" */;
+			buildPhases = (
+				BD31ACC02C98566900D0FAB4 /* Sources */,
+				BD31ACC12C98566900D0FAB4 /* Frameworks */,
+				BD31ACC22C98566900D0FAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeometricBirdsSlideshow;
+			packageProductDependencies = (
+				BD31ACF92C9857F600D0FAB4 /* PocketSVG */,
+			);
+			productName = GeometricBirdsSlideshow;
+			productReference = BD31ACC42C98566900D0FAB4 /* GeometricBirdsSlideshow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD31ACD32C98566A00D0FAB4 /* GeometricBirdsSlideshowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD31ACEB2C98566A00D0FAB4 /* Build configuration list for PBXNativeTarget "GeometricBirdsSlideshowTests" */;
+			buildPhases = (
+				BD31ACD02C98566A00D0FAB4 /* Sources */,
+				BD31ACD12C98566A00D0FAB4 /* Frameworks */,
+				BD31ACD22C98566A00D0FAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD31ACD62C98566A00D0FAB4 /* PBXTargetDependency */,
+			);
+			name = GeometricBirdsSlideshowTests;
+			productName = GeometricBirdsSlideshowTests;
+			productReference = BD31ACD42C98566A00D0FAB4 /* GeometricBirdsSlideshowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD31ACDD2C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD31ACEE2C98566A00D0FAB4 /* Build configuration list for PBXNativeTarget "GeometricBirdsSlideshowUITests" */;
+			buildPhases = (
+				BD31ACDA2C98566A00D0FAB4 /* Sources */,
+				BD31ACDB2C98566A00D0FAB4 /* Frameworks */,
+				BD31ACDC2C98566A00D0FAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD31ACE02C98566A00D0FAB4 /* PBXTargetDependency */,
+			);
+			name = GeometricBirdsSlideshowUITests;
+			productName = GeometricBirdsSlideshowUITests;
+			productReference = BD31ACDE2C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD31ACBC2C98566900D0FAB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BD31ACC32C98566900D0FAB4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD31ACD32C98566A00D0FAB4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD31ACC32C98566900D0FAB4;
+					};
+					BD31ACDD2C98566A00D0FAB4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD31ACC32C98566900D0FAB4;
+					};
+				};
+			};
+			buildConfigurationList = BD31ACBF2C98566900D0FAB4 /* Build configuration list for PBXProject "GeometricBirdsSlideshow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD31ACBB2C98566900D0FAB4;
+			packageReferences = (
+				BD31ACF82C9857F600D0FAB4 /* XCRemoteSwiftPackageReference "PocketSVG" */,
+			);
+			productRefGroup = BD31ACC52C98566900D0FAB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD31ACC32C98566900D0FAB4 /* GeometricBirdsSlideshow */,
+				BD31ACD32C98566A00D0FAB4 /* GeometricBirdsSlideshowTests */,
+				BD31ACDD2C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD31ACC22C98566900D0FAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ACCF2C98566A00D0FAB4 /* Preview Assets.xcassets in Resources */,
+				BD31ACCC2C98566A00D0FAB4 /* Assets.xcassets in Resources */,
+				BD31AD0C2C985D1400D0FAB4 /* bird6.svg in Resources */,
+				BD31AD0E2C985D1400D0FAB4 /* bird3.svg in Resources */,
+				BD31AD0D2C985D1400D0FAB4 /* bird1.svg in Resources */,
+				BD31AD0A2C985D1400D0FAB4 /* bird2.svg in Resources */,
+				BD31AD0B2C985D1400D0FAB4 /* bird4.svg in Resources */,
+				BD31AD092C985D1400D0FAB4 /* bird5.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ACD22C98566A00D0FAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ACDC2C98566A00D0FAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD31ACC02C98566900D0FAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ACF32C98575D00D0FAB4 /* Dots.swift in Sources */,
+				BD31ACF72C9857C900D0FAB4 /* BirdDataManager.swift in Sources */,
+				BD31ACCA2C98566900D0FAB4 /* ContentView.swift in Sources */,
+				BD31AD012C985B8900D0FAB4 /* SVGHelper.swift in Sources */,
+				BDB41C0E2C9ABD5E00CAB8DA /* ContentViewModel.swift in Sources */,
+				BD31ACFF2C985B3D00D0FAB4 /* DotColors.swift in Sources */,
+				BDB41C0A2C9960CA00CAB8DA /* BirdShapeLayerView.swift in Sources */,
+				BD31ACC82C98566900D0FAB4 /* GeometricBirdsSlideshowApp.swift in Sources */,
+				BDB41C0C2C997C8800CAB8DA /* UIColor+Hex.swift in Sources */,
+				BD31ACFC2C98582200D0FAB4 /* BirdShapeLayer+Morph.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ACD02C98566A00D0FAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ACD92C98566A00D0FAB4 /* GeometricBirdsSlideshowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD31ACDA2C98566A00D0FAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD31ACE52C98566A00D0FAB4 /* GeometricBirdsSlideshowUITestsLaunchTests.swift in Sources */,
+				BD31ACE32C98566A00D0FAB4 /* GeometricBirdsSlideshowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD31ACD62C98566A00D0FAB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD31ACC32C98566900D0FAB4 /* GeometricBirdsSlideshow */;
+			targetProxy = BD31ACD52C98566A00D0FAB4 /* PBXContainerItemProxy */;
+		};
+		BD31ACE02C98566A00D0FAB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD31ACC32C98566900D0FAB4 /* GeometricBirdsSlideshow */;
+			targetProxy = BD31ACDF2C98566A00D0FAB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD31ACE62C98566A00D0FAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD31ACE72C98566A00D0FAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD31ACE92C98566A00D0FAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeometricBirdsSlideshow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometricBirdsSlideshow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD31ACEA2C98566A00D0FAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeometricBirdsSlideshow/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometricBirdsSlideshow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD31ACEC2C98566A00D0FAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometricBirdsSlideshowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometricBirdsSlideshow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeometricBirdsSlideshow";
+			};
+			name = Debug;
+		};
+		BD31ACED2C98566A00D0FAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometricBirdsSlideshowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeometricBirdsSlideshow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeometricBirdsSlideshow";
+			};
+			name = Release;
+		};
+		BD31ACEF2C98566A00D0FAB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometricBirdsSlideshowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometricBirdsSlideshow;
+			};
+			name = Debug;
+		};
+		BD31ACF02C98566A00D0FAB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.GeometricBirdsSlideshowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeometricBirdsSlideshow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD31ACBF2C98566900D0FAB4 /* Build configuration list for PBXProject "GeometricBirdsSlideshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31ACE62C98566A00D0FAB4 /* Debug */,
+				BD31ACE72C98566A00D0FAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD31ACE82C98566A00D0FAB4 /* Build configuration list for PBXNativeTarget "GeometricBirdsSlideshow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31ACE92C98566A00D0FAB4 /* Debug */,
+				BD31ACEA2C98566A00D0FAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD31ACEB2C98566A00D0FAB4 /* Build configuration list for PBXNativeTarget "GeometricBirdsSlideshowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31ACEC2C98566A00D0FAB4 /* Debug */,
+				BD31ACED2C98566A00D0FAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD31ACEE2C98566A00D0FAB4 /* Build configuration list for PBXNativeTarget "GeometricBirdsSlideshowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD31ACEF2C98566A00D0FAB4 /* Debug */,
+				BD31ACF02C98566A00D0FAB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD31ACF82C9857F600D0FAB4 /* XCRemoteSwiftPackageReference "PocketSVG" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pocketsvg/PocketSVG.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BD31ACF92C9857F600D0FAB4 /* PocketSVG */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BD31ACF82C9857F600D0FAB4 /* XCRemoteSwiftPackageReference "PocketSVG" */;
+			productName = PocketSVG;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BD31ACBC2C98566900D0FAB4 /* Project object */;
+}
